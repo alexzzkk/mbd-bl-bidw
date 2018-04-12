@@ -33,3 +33,4 @@ Tableau is an in-memory tool. When working with this tool we need to consider so
   - [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/papers/narrative)
   - [UW Interactive Data Lab Papers](http://idl.cs.washington.edu/papers/)
   - [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
+  - [VIZ PALETTE](http://projects.susielu.com/viz-palette)
