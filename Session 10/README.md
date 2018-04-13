@@ -28,9 +28,16 @@ The topic of this session is **Data Visualization and Data Storytelling**. This 
  
 Tableau is an in-memory tool. When working with this tool we need to consider some details to improve its performance. Review the following article for more information: https://www.tableau.com/about/blog/2016/1/5-tips-make-your-dashboards-more-performant-48574
 
+### How to choose a color scale
+ 
+We can use a color picker. There are many:
+
+  - [Data Color Picker](https://learnui.design/tools/data-color-picker.html)
+  - [Viz Palette](http://projects.susielu.com/viz-palette)
+  - [Necessites posar colors?](https://www.lorem.cat/colors.html) - in catalan, interesting as you can extract colors from images -
+
 ## References
 
   - [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/papers/narrative)
   - [UW Interactive Data Lab Papers](http://idl.cs.washington.edu/papers/)
   - [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
-  - [VIZ PALETTE](http://projects.susielu.com/viz-palette)
