@@ -35,3 +35,7 @@ This usually is called **IaC** (Infrastructure as Code). Infrastructure as Code 
 ### Does it make sense to have a PSA (Persistent Staging Area) in your EDW (Enterprise Data Warehouse)?
 
 In short, **NO**. You can read an interesting discussion about Pros and Cons [here](https://www.hansmichiels.com/2017/02/18/using-a-persistent-staging-area-what-why-and-how/).
+
+### Is there a benchmark for Decision Suport Systems?
+
+Yes. Check [TCP](http://www.tpc.org/default.asp), a non-profit corporation founded to define transaction processing and database benchmarks and to disseminate objective, verifiable TPC performance data to the industry.
