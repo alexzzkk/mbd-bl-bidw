@@ -41,3 +41,4 @@ We can use a color picker. There are many:
   - [Narrative Visualization: Telling Stories with Data](http://vis.stanford.edu/papers/narrative)
   - [UW Interactive Data Lab Papers](http://idl.cs.washington.edu/papers/)
   - [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
+  - [IDEA: An ongoing series of nonverbal algorithm assembly instructions](https://idea-instructions.com)
