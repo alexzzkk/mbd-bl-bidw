@@ -42,3 +42,4 @@ We can use a color picker. There are many:
   - [UW Interactive Data Lab Papers](http://idl.cs.washington.edu/papers/)
   - [Spurious Correlations](http://www.tylervigen.com/spurious-correlations)
   - [IDEA: An ongoing series of nonverbal algorithm assembly instructions](https://idea-instructions.com)
+  - [Data Visualization Checklist](https://datavizchecklist.stephanieevergreen.com)
