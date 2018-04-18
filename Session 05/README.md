@@ -70,7 +70,7 @@ sudo rm -rf jdk*
 
 ### Are there other open source data integration options?
 
-Yes. Some of them:
+Yes, many and the amount is growing. Some of them:
 
  - [Apache Camel](https://camel.apache.org): an open source Java integration framework that enables integration of different applications using multiple protocols and technologies. It is a rule-based routing and mediation engine.
  - [Apache Kafka](https://kafka.apache.org): an open source platform written in Scala and Java. It provides a unified, high-throughput, low-latency platform for managing real-time data.
@@ -78,6 +78,9 @@ Yes. Some of them:
  - [Logstash](https://www.elastic.co/products/logstash): an open source data processing pipeline that ingests data from multiple sources simultaneously, transforming the source data and store events into ElasticSearch by default. Logstash is part of an ELK stack.
  - [Pentaho Data Integration](https://sourceforge.net/projects/pentaho/files/): an open source java ETL tool that supports multiple data integration steps. 
  - [Talend Open Studio](https://www.talend.com/products/talend-open-studio/): products provide tools to integrate, cleanse, mask and profile data. Talend has a GUI that enables managing a large number of source systems using standard connectors.
+ - [Singer](https://www.singer.io): is an open-source standard for writing scripts that move data.
+ 
+And many more propietary: [Informatica](https://www.informatica.com), [Fivetran](https://fivetran.com), [Improvado](http://improvado.io), [Flydata](https://www.flydata.com), [Alooma](https://www.alooma.com), [Blendo](https://www.blendo.co) or [Segment](https://segment.com) among others. 
 
 ## References
 
