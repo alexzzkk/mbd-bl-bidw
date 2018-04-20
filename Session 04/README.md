@@ -56,4 +56,4 @@ Another option is to generate synthetic data. There are many differen approaches
 
 Yes. It comprises many iterative steps.
 
-![](images/data-warehouse-lifecycle.jpg)
+![Source: WhereScape](images/data-warehouse-lifecycle.jpg)
