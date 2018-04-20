@@ -51,3 +51,9 @@ You can generate random data to start working. For example, you can use [Mockaro
 Another option is to generate synthetic data. There are many differen approaches that can be categorized into three main groups: **synthetic reconstruction**, **combinatorial optimization**, and **model-based generation**.
 
 Another option is to generate synthetic data. There are many differen approaches that can be categorized into three main groups: synthetic reconstruction, combinatorial optimization, and model-based generation.
+
+### Is there a data warehouse lifecycle?
+
+Yes. It comprises many iterative steps.
+
+![](images/data-warehouse-lifecycle.jpg)
