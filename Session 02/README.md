@@ -39,3 +39,9 @@ In short, **NO**. You can read an interesting discussion about Pros and Cons [he
 ### Is there a benchmark for Decision Suport Systems?
 
 Yes. Check [TCP](http://www.tpc.org/default.asp), a non-profit corporation founded to define transaction processing and database benchmarks and to disseminate objective, verifiable TPC performance data to the industry.
+
+### I need a BI (Business Intelligence) platform. Which options do I have?
+
+ - Open source: [SpagoBI](http://www.spagobi.org), [SealReport](http://www.sealreport.org) among others.
+ - Open source/Commercial: [Hitachi Ventara (formely Pentaho](https://www.hitachivantara.com), [Tibco Jaspersoft](https://www.jaspersoft.com), [ReportServer](https://reportserver.net) among others.
+ - Proprietary: [Microstrategy](https://www.microstrategy.com), [IBM](https://www.ibm.com/analytics/business-intelligence), [Oracle](https://www.oracle.com/solutions/business-analytics/business-intelligence/index.html), [SAP](https://www.sap.com/products/analytics/business-intelligence-bi.html), [Tableau](https://www.tableau.com), [Qlik](https://www.qlik.com/us/), [Gooddata](https://www.gooddata.com), [Birst](http://www.birst.com), [Information Builders](https://www.informationbuilders.com), [Domo](http://domo.com), [Open Text](https://www.opentext.com/what-we-do/products/analytics) among others.
