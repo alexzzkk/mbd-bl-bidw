@@ -63,6 +63,16 @@ Most of the times, we refer iterative/incremental development as [**Agile Data M
 
 To keep track of incremental changes in the structure of the dimensional model, it is suitable to use a database change management tool. Some of the best known Open Source tools are [Flyway](https://flywaydb.org/), [Liquibase](http://www.liquibase.org/) or [DBDeploy](http://dbdeploy.com/).
 
+### Which options do I have for a data warehouse database?
+
+There are many options:
+
+ - Relational databases: [MySQL](https://mysql.com), [PostgreSQL](https://www.postgresql.org), [MSSQL](https://www.microsoft.com/en-us/sql-server) or [Oracle](www.oracle.com) among others.
+ - Analytic data warehouses: such as [Teradata](https://www.teradata.com)
+ - Hadoop-based solutions: [Amazon Redshift](https://aws.amazon.com/redshift/), [Google BigQuery](https://cloud.google.com/bigquery/) or [Snowflake](https://snowflake.net) among others.
+
+Choosing one or another depends on many factors such as data size, purpose, knowledge, budget, etc.
+
 ### What can I do if I forget my MySQL password?
 
 If you forget your MySQL password or don't know how to change MySQL root password, follow these steps.
