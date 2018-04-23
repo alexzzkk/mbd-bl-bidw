@@ -33,7 +33,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
     - [Windows] During the installation process you will configure the password for root user (choose pentaho)
     - [Mac] A temporal password will be generated. You must start the database from the preferences menu, open MySQL Workbench and the first time you will connect the database you wil have the chance to change the temporal password.
 
-> Note: for Microsoft Windows it is just one installer for MAC, two files.
+> Note: for Microsoft Windows it is just one installer for MAC, two files. PDI and MYSQL Workbench only supports legacy password encription, not the new strong encription available in MySQL 8.
 
 **Install PDI**
 
