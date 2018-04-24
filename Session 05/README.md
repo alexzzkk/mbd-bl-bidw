@@ -80,7 +80,7 @@ Yes, many and the amount is growing. Some of them:
  - [Talend Open Studio](https://www.talend.com/products/talend-open-studio/): products provide tools to integrate, cleanse, mask and profile data. Talend has a GUI that enables managing a large number of source systems using standard connectors.
  - [Singer](https://www.singer.io): is an open-source standard for writing scripts that move data.
  
-And many more propietary: [Informatica](https://www.informatica.com), [Fivetran](https://fivetran.com), [Improvado](http://improvado.io), [Flydata](https://www.flydata.com), [Alooma](https://www.alooma.com), [Blendo](https://www.blendo.co) or [Segment](https://segment.com) among others. 
+And many more proprietary options: [Informatica](https://www.informatica.com), [Fivetran](https://fivetran.com), [Improvado](http://improvado.io), [Flydata](https://www.flydata.com), [Alooma](https://www.alooma.com), [Blendo](https://www.blendo.co) or [Segment](https://segment.com), [etleap](https://etleap.com) among others. 
 
 ## References
 
