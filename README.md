@@ -78,3 +78,7 @@ We can access student licenses due to the Academic Partnership. Tableau has vers
 ### Is there a Pentaho Release Product Version Matrix?
 
 Yes! You can find it [here](https://wiki.pentaho.com/display/PEOpen/Pentaho+Release+Product+Version+Matrix+8.x).
+
+### Any recommendation for MySQL SQL syntax?
+
+Yes, check [MySQL™ Notes for Professionals book](http://books.goalkicker.com/MySQLBook/) and [MySQL Documentation](https://dev.mysql.com/doc/).
