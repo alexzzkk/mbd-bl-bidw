@@ -30,10 +30,13 @@ This repository contains all necessary inputs to run the course hands-on labs.
     - MySQL: http://dev.mysql.com/downloads/mysql/
     - MySQL Workbench: http://dev.mysql.com/downloads/workbench/
   - Install all the programs and follow the instructions:
-    - [Windows] During the installation process you will configure the password for root user (choose pentaho)
-    - [Mac] A temporal password will be generated. You must start the database from the preferences menu, open MySQL Workbench and the first time you will connect the database you wil have the chance to change the temporal password.
+    - [Windows] During the installation process you will configure the password for root user (choose pentaho2018 o a password that you will remember).
+    - [Mac] During the installation process you will configure the password for root user (choose pentaho2018 o a password that you will remember). If you forget the password you will be able to change it from system preferences.
+    - PDI and MYSQL Workbench only supports legacy password encription, not the new strong encription available in MySQL 8.
 
-> Note: for Microsoft Windows it is just one installer for MAC, two files. PDI and MYSQL Workbench only supports legacy password encription, not the new strong encription available in MySQL 8.
+> Note: for Microsoft Windows it is just one installer for MAC, two files.
+
+Remember to start the server to be able to use the database. Open MySQL Workbench and create a new connection using the right user and password and the standard parameters for configuration.
 
 **Install PDI**
 
@@ -69,3 +72,9 @@ We can access student licenses due to the Academic Partnership. Tableau has vers
   - Copy Tableau Desktop License from campus.
   - Install the software following the instructions in the screen.
   - Update your license in the application: Help menu -> Manage Product Keys
+
+## FAQ
+
+### Is there a Pentaho Release Product Version Matrix?
+
+Yes! You can find it [here](https://wiki.pentaho.com/display/PEOpen/Pentaho+Release+Product+Version+Matrix+8.x).
