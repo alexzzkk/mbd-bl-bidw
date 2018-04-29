@@ -67,9 +67,9 @@ To keep track of incremental changes in the structure of the dimensional model, 
 
 There are many options:
 
- - Relational databases: [MySQL](https://mysql.com), [PostgreSQL](https://www.postgresql.org), [MSSQL](https://www.microsoft.com/en-us/sql-server) or [Oracle](www.oracle.com) among others.
- - Analytic data warehouses: such as [Teradata](https://www.teradata.com)
- - Hadoop-based solutions: [Amazon Redshift](https://aws.amazon.com/redshift/), [Google BigQuery](https://cloud.google.com/bigquery/) or [Snowflake](https://snowflake.net) among others.
+ - Relational databases: [MySQL](https://mysql.com), [PostgreSQL](https://www.postgresql.org), [MSSQL](https://www.microsoft.com/en-us/sql-server) or [Oracle](www.oracle.com) among many others.
+ - Analytic data warehouses: such as [Teradata](https://www.teradata.com), [Vertica](https://www.vertica.com) among many others.
+ - Hadoop-based solutions: [Amazon Redshift](https://aws.amazon.com/redshift/), [Google BigQuery](https://cloud.google.com/bigquery/) or [Snowflake](https://snowflake.net) among many others.
 
 Choosing one or another depends on many factors such as data size, purpose, knowledge, budget, etc.
 
