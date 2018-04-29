@@ -36,3 +36,20 @@ Using varialble in the path such as
 ``` 
 ${Internal.Entry.Current.Directory}
 ``` 
+
+### Key criteria for selecting ETL tools
+
+When selecting an ETL tool, it is recommended to consider, at least, the following criteria: 
+
+ - Infrastructure
+ - Functionality
+ - Performance
+ - Native connectivity
+ - Usability
+ - Platforms supported
+ - Debugging facilities
+ - Data Quality & profiling
+ - Reusability
+ - Scalability
+ - Batch vs Real-time
+ - Future prospects
