@@ -21,12 +21,12 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
 **Install Java**
 
-  - Download Java JDK v8 from: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
+  - Download Java JDK v8 from: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html (in our case: Java SE 8u171/8u172)
   - Install and follow the instructions
 
 **Install MySQL**
 
-  - Download the right version of MySQL and MySQL Workbench for your OS 
+  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.11 and MySQL Workbench 6.3.10)
     - MySQL: http://dev.mysql.com/downloads/mysql/
     - MySQL Workbench: http://dev.mysql.com/downloads/workbench/
   - Install all the programs and follow the instructions:
@@ -40,7 +40,7 @@ Remember to start the server to be able to use the database. Open MySQL Workbenc
 
 **Install PDI**
 
-We will use the community version of Pentaho Data Integration (a.k.a PDI). It can be downloaded from this [link](https://sourceforge.net/projects/pentaho/files/Pentaho%208.0/client-tools/).
+We will use the community version of Pentaho Data Integration (a.k.a PDI). It can be downloaded from this [link](https://sourceforge.net/projects/pentaho/files/Pentaho%208.0/client-tools/) (in our case: pdi-ce-8.0.0.0-28.zip).
 
   - Download the file and unzip.
     - [Mac] Move the data-integration folder into Applications folder
