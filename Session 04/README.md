@@ -29,20 +29,9 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 
 ### How to choose between CIF, MD or Data Vault?
 
-  - CIF (Inmon)
-  	- Easy to maintain
-  	- Structured
-  	- Easier data mining
-  	- Timely to build
-  - MD (Kimball)
-	  - Start small, scale big
-	  - Faster ROI
-	  - Analytical Tools
-	  - Low reusability
-  - Data Vault (Lyndsted)
-	  - Backend Data Warehouse
-	  - Multiple sources; Full history; Incremental build
-	  - Up-front work; Long-term payoff; Many joins
+  - CIF (Inmon): Easy to maintain; Structured; Easier data mining; Timely to build
+  - MD (Kimball): Start small, scale big; Faster ROI; Analytical Tools; Low reusability
+  - Data Vault (Lyndsted); Backend Data Warehouse; Multiple sources; Full history; Incremental build; Up-front work; Long-term payoff; Many joins
 
 ### What can I do if I don't have access to the data yet?
 
@@ -57,3 +46,7 @@ Another option is to generate synthetic data. There are many differen approaches
 Yes. It comprises many iterative steps.
 
 ![Source: WhereScape](images/data-warehouse-lifecycle.jpg)
+
+### Any tips for improving MySQL performance?
+
+Check this article: [https://www.catswhocode.com/blog/10-sql-tips-to-speed-up-your-database](https://www.catswhocode.com/blog/10-sql-tips-to-speed-up-your-database)
