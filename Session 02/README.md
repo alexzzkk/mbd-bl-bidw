@@ -30,7 +30,7 @@ Yes. It is recommended to use a version control system (SCM) to version all arti
 
 ### How can we provision the different environments?
 
-This usually is called **IaC** (Infrastructure as Code). Infrastructure as Code is the approach to defining computing and network infrastructure through source code that can then be treated just like any software system. We can use, for example, [Ansible](https://www.ansible.com/), a platform that allows you to create YAML code for provisioning environments, and works together with [Vagrant](https://www.vagrantup.com/) which is a virtual environment manager.
+This usually is called **IaC** (Infrastructure as Code). Infrastructure as Code is the approach to defining computing and network infrastructure through source code that can then be treated just like any software system. We can use, for example, [Ansible](https://www.ansible.com/), a platform that allows you to create [YAML](http://yaml.org) code for provisioning environments, and works together with [Vagrant](https://www.vagrantup.com/) which is a virtual environment manager.
 
 ### Does it make sense to have a PSA (Persistent Staging Area) in your EDW (Enterprise Data Warehouse)?
 
