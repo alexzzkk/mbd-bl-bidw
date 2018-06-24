@@ -6,6 +6,7 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 
   - Datasets
   - Videos
+  - Articles
 
 ## Main Concepts
 
