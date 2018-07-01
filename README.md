@@ -82,3 +82,7 @@ Yes! You can find it [here](https://wiki.pentaho.com/display/PEOpen/Pentaho+Rele
 ### Any recommendation for MySQL SQL syntax?
 
 Yes, check [MySQL™ Notes for Professionals book](http://books.goalkicker.com/MySQLBook/) and [MySQL Documentation](https://dev.mysql.com/doc/).
+
+### How can I have this repository?
+
+Fork it using [github](https://www.github.com) and [github desktop](https://www.desktop.github.com)

@@ -24,9 +24,13 @@ Yes. We can have four environments:
  
  A DW/BI must have, at least, the first two.
  
- ### Is it recommended to use a Control Version System in DW/BI?
+### Is it recommended to use a Control Version System in DW/BI?
  
 Yes. It is recommended to use a version control system (SCM) to version all artifacts created during the project: (schema, sql scripts, data, etls, reports,...). Some options: [git](https://git-scm.com), [SVN](https://subversion.apache.org/), [CVS](http://www.nongnu.org/cvs/).
+
+### I'm interested in agile methodologies. Can I use them with github?
+
+Yes! Check [Zenhub](https://www.zenhub.com).
 
 ### How can we provision the different environments?
 
