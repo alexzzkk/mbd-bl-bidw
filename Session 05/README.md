@@ -92,3 +92,4 @@ And many more proprietary options: [Informatica](https://www.informatica.com), [
   - [Hitachi Ventara Pentaho - Community](https://community.hds.com/community/products-and-solutions/pentaho/)
   - [Hitachi Ventara Pentaho - Wiki](https://wiki.pentaho.com)
   - [Hitachi Ventara Pentaho - Wiki - PDI](https://wiki.pentaho.com/display/EAI/Latest+Pentaho+Data+Integration+(aka+Kettle)+Documentation)
+  - [Examples from Learning Pentaho Data Integration 8 CE Third Edition](https://github.com/PacktPublishing/Learning-Pentaho-Data-Integration-8-CE-Third-Edition)
