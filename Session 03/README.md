@@ -24,6 +24,10 @@ The topic of this session is **Data Modelling**. This repository includes the co
 	  - MySQL Workbench
   - All schemas have been created with MySQL Workbench.
 
+## What you can learn in the videos
+
+  - [MySQL Workbench - Introduction](https://vimeo.com/280760052)
+
 ## FAQ
 
 ### Which is the meaning of MySQL Workbench flags? 
