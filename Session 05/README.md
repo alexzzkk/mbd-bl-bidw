@@ -86,6 +86,7 @@ And many more proprietary options: [Informatica](https://www.informatica.com), [
 
   - [Hitachi Ventara Pentaho - Documentation](https://help.pentaho.com/Documentation/)
   - [Hitachi Ventara Pentaho - Documentation PDI](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration)
+  - [Pentaho Github](https://github.com/pentaho)
   - [PDI - Transformation Steps](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Transformation_Step_Reference)
   - [PDI - Job Steps](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Job_Entry_Reference)
   - [PDI - Market Place](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Marketplace)
