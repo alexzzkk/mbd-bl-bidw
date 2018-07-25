@@ -152,3 +152,7 @@ After this, you need to install again MySQL and keep the auto-generated password
   - [SQL Fundamentals (DDL & DML)](https://www.thoughtco.com/sql-fundamentals-1019780)
   - [Glossary of Terms](https://www.thoughtco.com/databases-glossary-1019603)
   - [About referential integrity](https://www.thoughtco.com/referential-integrity-definition-1019181)
+  - https://www.vertabelo.com/blog/technical-articles/data-vault-series-agile-modeling-not-an-option-anymore
+  - https://www.vertabelo.com/blog/technical-articles/data-vault-series-data-vault-2-0-modeling-basics
+  - https://www.vertabelo.com/blog/technical-articles/data-vault-series-the-business-data-vault
+  - https://www.vertabelo.com/blog/technical-articles/data-vault-series-building-an-information-mart-with-your-data-vault
