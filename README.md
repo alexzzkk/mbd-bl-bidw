@@ -29,6 +29,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
   - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.12 and MySQL Workbench 8.0.12)
     - MySQL: http://dev.mysql.com/downloads/mysql/
     - MySQL Workbench: http://dev.mysql.com/downloads/workbench/
+    - [Windows] MySQL Workbenck in windows requires [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
   - Install all the programs and follow the instructions:
     - [Windows] During the installation process you will configure the password for root user (choose pentaho2018 o a password that you will remember).
     - [Mac] During the installation process you will configure the password for root user (choose pentaho2018 o a password that you will remember). If you forget the password you will be able to change it from system preferences.
