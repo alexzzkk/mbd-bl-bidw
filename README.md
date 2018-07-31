@@ -60,10 +60,16 @@ cd /Applications/data-integration/
 sudo xattr -dr com.apple.quarantine /Applications/data-integration/Data\ Integration.app
 ```  
 
-  - Install MySQL plugin for PDI:
+  - Install MySQL 5.X plugin for PDI:
     - Open PDI
     - Go the tools menu > Marketplace > MySQL Plugin and install
     - Restart PDI
+  - Configuring a JDBC Connection to MySQL 8.x Using PDI:
+    - Download the MySQL 8.x JDBC driver (platform independent, zip) to the computer running Pentaho from: https://dev.mysql.com/downloads/connector/j/
+    - Unzip the file mysql-connector-java-8.0.12.zip
+    - Copy mysql-connector-java-8.0.12.jar to the Pentaho lib folder. [Windows]: C:\Program Files\pentaho\design-tools\data-integration\lib. [Mac OS]: …/pentaho/design-tools/data-integration/lib
+    - Configure a Generic Database connection in Pentaho: (1) Connection jdbc:mysql://localhost:3306/<database_name> (2) Driver Class Name: com.mysql.cj.jdbc.Driver (3) use the previous user and password
+    - In case the server time zone value 'AEST' is unrecognized or represents more than one time zone, then consider: jdbc:mysql://localhost:3306/<database_name>?useLegacyDatetimeCode=false&serverTimezone=UTC
 
 **Install Tableau Desktop**
 
