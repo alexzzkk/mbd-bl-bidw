@@ -26,7 +26,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
 **Install MySQL**
 
-  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.11 and MySQL Workbench 6.3.10)
+  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.12 and MySQL Workbench 8.0.12)
     - MySQL: http://dev.mysql.com/downloads/mysql/
     - MySQL Workbench: http://dev.mysql.com/downloads/workbench/
   - Install all the programs and follow the instructions:
