@@ -51,3 +51,4 @@ Tableau has a data preparation tool as well: [Tableau Prep](https://www.tableau.
    - [Tableau Resources](https://public.tableau.com/en-us/s/resources)
    - [from Data to Viz](https://www.data-to-viz.com)
    - [Tableau Extensions Gallery](https://extensiongallery.tableau.com)
+   - [The Chartmaker Directory](http://chartmaker.visualisingdata.com), a comparison for visual tools and libraries
