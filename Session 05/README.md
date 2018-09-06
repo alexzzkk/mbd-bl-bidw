@@ -4,6 +4,7 @@
 
 The topic of this session is **Data Integration** (in particular, ETL). This repository includes the content discussed in class.
 
+  - Articles
   - Datasets
   - Videos
 
