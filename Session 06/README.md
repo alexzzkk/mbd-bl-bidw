@@ -37,6 +37,10 @@ Using varialble in the path such as
 ${Internal.Entry.Current.Directory}
 ``` 
 
+### How can we schedule an ETL process using PDI?
+
+You can use [carte server](https://help.pentaho.com/Documentation/8.1/Products/Data_Integration/Carte_Clusters) (one of the components of PDI) and [cron](https://en.wikipedia.org/wiki/Cron) or an external tool such as [Azkaban](https://azkaban.github.io/) that combines both tools.
+
 ### Key criteria for selecting ETL tools
 
 When selecting an ETL tool, it is recommended to consider, at least, the following criteria: 
