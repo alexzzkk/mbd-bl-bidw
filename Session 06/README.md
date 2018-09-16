@@ -31,15 +31,24 @@ Yes. It supports arguments, parameters and variables. You can read about it [her
 
 ### How can we create an ETL environment independent?
 
-Using varialble in the path such as
+Using variable in the path such as
 
 ``` 
 ${Internal.Entry.Current.Directory}
 ``` 
 
+PDI supports other variables. Check this [link](https://help.pentaho.com/Documentation/8.1/Products/Data_Integration/Data_Integration_Perspective/Run_Modifiers/Variables) to discover all of them.
+
 ### How can we schedule an ETL process using PDI?
 
 You can use [carte server](https://help.pentaho.com/Documentation/8.1/Products/Data_Integration/Carte_Clusters) (one of the components of PDI) and [cron](https://en.wikipedia.org/wiki/Cron) or an external tool such as [Azkaban](https://azkaban.github.io/) that combines both tools.
+
+## How can I discover all the steps supported by PDI?
+
+Check the following links:
+
+- https://help.pentaho.com/Documentation/8.1/Products/Data_Integration/Transformation_Step_Reference
+- https://help.pentaho.com/Documentation/8.1/Products/Data_Integration/Job_Entry_Reference
 
 ### Key criteria for selecting ETL tools
 
