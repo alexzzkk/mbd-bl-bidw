@@ -5,8 +5,8 @@
 The topic of this session is **Data Modelling** (in particular, data warehouse modelling). This repository includes the content discussed in class:
 
   - Datasets
-  - Videos
   - Articles
+  - Videos
 
 ## Main Concepts
 
