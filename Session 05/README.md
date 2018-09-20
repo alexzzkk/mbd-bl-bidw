@@ -51,7 +51,7 @@ We must uninstall all JRE, JDK from our system and install the right JDK version
 [Windows]
 
   - Go to control panel > Uninstall programs. Delete all JRE and JDK not required. You have more information [here](https://java.com/en/download/help/uninstall_java.xml)
-  - Download Java SE Development Kit 8u172 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  - Download Java SE Development Kit 8u181 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
   - Set Environment Variables:
     - Set the PENTAHO_JAVA_HOME  environment variable. If you do not set these variables, Pentaho will not start correctly. If you are using a JRE, set the JRE_HOME home environment variable as well.
@@ -70,7 +70,7 @@ cd /Library/Java/JavaVirtualMachines
 sudo rm -rf jdk*
 ``` 
 
-  - Download Java SE Development Kit 8u162 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  - Download Java SE Development Kit 8u181 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
 
 ### Are there other open source data integration options?
