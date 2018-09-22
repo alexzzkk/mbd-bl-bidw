@@ -43,7 +43,7 @@ PDI supports other variables. Check this [link](https://help.pentaho.com/Documen
 
 You can use [carte server](https://help.pentaho.com/Documentation/8.1/Products/Data_Integration/Carte_Clusters) (one of the components of PDI) and [cron](https://en.wikipedia.org/wiki/Cron) or an external tool such as [Azkaban](https://azkaban.github.io/) that combines both tools.
 
-## How can I discover all the steps supported by PDI?
+### How can I discover all the steps supported by PDI?
 
 Check the following links:
 
