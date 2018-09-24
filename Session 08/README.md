@@ -10,6 +10,7 @@ The topic of this session is **Reporting**. This repository includes the content
   - Guides
   - Introduction to Tableau
   - Self-learning Tutorials
+  - Samples from http://www.tableaubook.com/
   
 ## Main Concepts
 
