@@ -142,7 +142,11 @@ After this, you need to install again MySQL and keep the auto-generated password
  - Start the database (from the system preferences).
  - Open MySQL Workbench and create a connection. 
  - It will ask for the generated password. After that a new window will appear to propose a new password. Choose one easy to remember. After this you will be able to enter to the server with your new password.
- 
+
+### I have to manage other databases and not only MySQL, what can I do?
+
+You can use other programs for managing and modelling multiple databases such [HeidiSQL](https://www.heidisql.com) or [Toad](https://www.toadworld.com).
+
 ## References
 
   - [MySQL Documentation](https://dev.mysql.com/doc/)
