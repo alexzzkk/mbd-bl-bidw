@@ -21,18 +21,22 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
 **Install Java**
 
-  - Download Java JDK v8 from: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html (in our case: Java SE 8u171/8u172/8u181)
+  - Download Java JDK v8 from: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html (in our case: Java SE 8u192).
   - Install and follow the instructions
+  - [Optional] Instead of using Oracle Java JDK, you can use
+    - [OpenJDK](https://openjdk.java.net/). Only use one JDK version.
+    - [Amazon Correto](https://aws.amazon.com/tw/corretto/). In particular [version 8](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html). Consider the right installer for your OS. This is a long-term support production-ready distribution of the Open Java Development Kit (OpenJDK) supported by Amazon. 
 
 **Install MySQL**
 
-  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.12 and MySQL Workbench 8.0.12)
-    - [Mac] In this case: MySQL (http://dev.mysql.com/downloads/mysql/) and MySQL Workbench (http://dev.mysql.com/downloads/workbench/)
-    - [Windows] In this case download the MSI installer (bigger size, 64bits) from http://dev.mysql.com/downloads/mysql/ . This installer includes MySQL Workbench. Workbench in windows requires [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.13 and MySQL Workbench 8.0.13). Download the program(s): 
+    - [Mac] In this case: MySQL (http://dev.mysql.com/downloads/mysql/) and MySQL Workbench (http://dev.mysql.com/downloads/workbench/).
+    - [Windows] In this case download the MSI installer (bigger size, 64bits) from http://dev.mysql.com/downloads/mysql/ . This installer includes MySQL Workbench. Choose custom installation and only install the server and the workbench. Workbench in windows may require [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145), but if you choose custom installation as stated in the next step it won't be required. 
+    - These versions will work in MAC OSX and Windows (latest OS versions). In case you have a previous OS version then it may be required to use an older version from [here](https://downloads.mysql.com/archives/installer/).
   - Install all the programs and follow the instructions:
-    - [Windows] During the installation process you will configure the password for root user (choose pentaho2018 or a password that you will remember).
-    - [Mac] During the installation process you will configure the password for root user (choose pentaho2018 or a password that you will remember). If you forget the password you will be able to change it from system preferences.
-    - PDI and MYSQL Workbench only supports legacy password encription, not the new strong encription available in MySQL 8.
+    - [Windows] During the installation process you will configure the password for root user (choose IEMBD2018 or a password that you will remember). Consider a custom installation and choose just the MySQL Server and MySQL Workbench as components to be installed. If you forget the password you will be able to change it using the workbench.
+    - [Mac] During the installation process you will configure the password for root user (choose iembd2019 or a password that you will remember). If you forget the password you will be able to change it from system preferences.
+    - PDI and Tableau only support **legacy password encription**, not the new strong encription available in MySQL 8. Select this option until the strong encription is supported.
 
 > Note: for Microsoft Windows it is just one installer for MAC, two files.
 
@@ -40,13 +44,13 @@ Remember to start the server to be able to use the database. Open MySQL Workbenc
 
 **Install PDI**
 
-We will use the community version of Pentaho Data Integration (a.k.a PDI). It can be downloaded from this [link](https://sourceforge.net/projects/pentaho/files/Pentaho%208.1/client-tools/) (in our case: pdi-ce-8.1.0.0-365.zip).
+We will use the community version of Pentaho Data Integration (a.k.a PDI). It can be downloaded from this [link](https://sourceforge.net/projects/pentaho/files/Pentaho%208.2/client-tools/) (in our case: pdi-ce-8.2.0.0-324.zip).
 
   - Download the file and unzip.
     - [Mac] Move the data-integration folder into Applications folder
     - [Windows] Move the data-integration folder into C:/ folder
   - Open PDI
-    - [Windows] Double-click spoon.bat inside data-integratioon folder
+    - [Windows] Double-click spoon.bat inside data-integration folder
     - [Mac] Open the terminal and execute:
     
 ```
@@ -59,16 +63,16 @@ cd /Applications/data-integration/
 sudo xattr -dr com.apple.quarantine /Applications/data-integration/Data\ Integration.app
 ```  
 
-  - Install MySQL 5.X plugin for PDI:
+  - Configuring a JDBC Connection to MySQL 8.x Using PDI:
+    - Download the MySQL 8.x JDBC driver (platform independent, zip) to the computer running Pentaho from: https://dev.mysql.com/downloads/connector/j/
+    - Unzip the file mysql-connector-java-8.0.13.zip
+    - Copy mysql-connector-java-8.0.13.jar to the Pentaho lib folder. [Windows]: C:\data-integration\lib. [Mac OS]: …/Applications/data-integration/lib
+    - Configure a Generic Database connection in Pentaho: (1) Connection URL: **jdbc:mysql://localhost:3306/<database_name>** (2) Driver Class Name: **com.mysql.cj.jdbc.Driver** (3) use the previous user and password
+    - In case the server time zone value 'AEST' (or other) is unrecognized or represents more than one time zone, then consider: jdbc:mysql://localhost:3306/<database_name>?useLegacyDatetimeCode=false&serverTimezone=UTC
+  - [Not required, only if you use MySQL 5.x] Install MySQL 5.x plugin for PDI:
     - Open PDI
     - Go the tools menu > Marketplace > MySQL Plugin and install
     - Restart PDI
-  - Configuring a JDBC Connection to MySQL 8.x Using PDI:
-    - Download the MySQL 8.x JDBC driver (platform independent, zip) to the computer running Pentaho from: https://dev.mysql.com/downloads/connector/j/
-    - Unzip the file mysql-connector-java-8.0.12.zip
-    - Copy mysql-connector-java-8.0.12.jar to the Pentaho lib folder. [Windows]: C:\Program Files\pentaho\design-tools\data-integration\lib. [Mac OS]: …/pentaho/design-tools/data-integration/lib
-    - Configure a Generic Database connection in Pentaho: (1) Connection jdbc:mysql://localhost:3306/<database_name> (2) Driver Class Name: com.mysql.cj.jdbc.Driver (3) use the previous user and password
-    - In case the server time zone value 'AEST' is unrecognized or represents more than one time zone, then consider: jdbc:mysql://localhost:3306/<database_name>?useLegacyDatetimeCode=false&serverTimezone=UTC
 
 **Install Tableau Desktop**
 
@@ -78,6 +82,7 @@ We can access student licenses due to the Academic Partnership. Tableau has vers
   - Copy Tableau Desktop License from campus.
   - Install the software following the instructions in the screen.
   - Update your license in the application: Help menu -> Manage Product Keys
+  - Download the driver for MySQL from [here](https://www.tableau.com/support/drivers)
 
 ## FAQ
 
@@ -91,4 +96,4 @@ Yes, check [MySQL™ Notes for Professionals book](http://books.goalkicker.com/M
 
 ### How can I have this repository?
 
-Fork it using [github](https://www.github.com) and [github desktop](https://www.desktop.github.com).
+Fork it using [github](https://www.github.com) and [github desktop](https://www.desktop.github.com). Are you interested in how Github works? Start [here](https://guides.github.com/activities/hello-world/).
