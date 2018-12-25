@@ -2,7 +2,7 @@
 
 ## Session 2
 
-The topic of this session is the components of **Business Intelligence**. This repository includes the content discussed in class.
+The topic of this session is components of **Business Intelligence** and **Data Warehousing**. This repository includes the content discussed in class.
 
 ## Main Concepts
 
@@ -17,18 +17,18 @@ The topic of this session is the components of **Business Intelligence**. This r
 
 Yes. We can have four environments:
 
- - **Production Environment (PROD)**: DW/BI system production-ready
  - **Developer Environment (Developer Sandbox)**: DW/BI system’s development environment
  - **Quality Assurance Environment (QA)**: all developers’ changes are integrated in this environment and the DW/BI system quality controls are performed
  - **Pre-production environment (PRE-PROD)**: is a production-like environment, tests and end-user demonstrations run on this environment
+ - **Production Environment (PROD)**: DW/BI system production-ready
  
- A DW/BI must have, at least, the first two.
+A DW/BI must have, at least, the developer and production environments.
  
 ### Is it recommended to use a Control Version System in DW/BI?
  
 Yes. It is recommended to use a version control system (SCM) to version all artifacts created during the project: (schema, sql scripts, data, etls, reports,...). Some options: [git](https://git-scm.com), [SVN](https://subversion.apache.org/), [CVS](http://www.nongnu.org/cvs/).
 
-### I'm interested in agile methodologies. Can I use them with github?
+### I'm interested in combining agile methodologies and github. Can I use them with github?
 
 Yes! Check [Zenhub](https://www.zenhub.com).
 
@@ -44,12 +44,12 @@ In short, **NO**. You can read an interesting discussion about Pros and Cons [he
 
 Yes. Check [TCP](http://www.tpc.org/default.asp), a non-profit corporation founded to define transaction processing and database benchmarks and to disseminate objective, verifiable TPC performance data to the industry.
 
-### Should Your Data Warehouse Have an SLA?
+### Should Your Data Warehouse Have an SLA (Service Level Agreement)?
 
 Yes. Interesting explanation here: [part 1](https://www.locallyoptimistic.com/post/data-warehouse-sla-p1/) and [part 2](https://www.locallyoptimistic.com/post/data-warehouse-sla-p2/).
 
 ### I need a BI (Business Intelligence) platform. Which options do I have?
 
- - Open source: [SpagoBI](http://www.spagobi.org), [SealReport](http://www.sealreport.org) among many others.
- - Open source/Commercial: [Hitachi Ventara (formely Pentaho)](https://www.hitachivantara.com), [Tibco Jaspersoft](https://www.jaspersoft.com), [ReportServer](https://reportserver.net), [LinceBI](http://www.lincebi.com) among many others.
- - Proprietary: [Microstrategy](https://www.microstrategy.com), [IBM](https://www.ibm.com/analytics/business-intelligence), [Oracle](https://www.oracle.com/solutions/business-analytics/business-intelligence/index.html), [SAP](https://www.sap.com/products/analytics/business-intelligence-bi.html), [Tableau](https://www.tableau.com), [Qlik](https://www.qlik.com/us/), [Microsoft](https://www.microsoft.com/en-us/sql-server/business-intelligence), [Gooddata](https://www.gooddata.com), [Birst](http://www.birst.com), [SiSense](https://www.sisense.com), [Information Builders](https://www.informationbuilders.com), [Domo](http://domo.com), [Open Text](https://www.opentext.com/what-we-do/products/analytics), [Grow](https://www.grow.com) among many others.
+ - **Open Source**: [SpagoBI](http://www.spagobi.org), [SealReport](http://www.sealreport.org), [BIRT](http://www.eclipse.org/birt/), [Knowage](https://www.knowage-suite.com) among many others.
+ - **Open Source/Commercial**: [Hitachi Ventara (formely Pentaho)](https://www.hitachivantara.com), [Tibco Jaspersoft](https://www.jaspersoft.com), [ReportServer](https://reportserver.net), [LinceBI](http://www.lincebi.com), [Jedox](https://www.jedox.com) among many others.
+ - **Proprietary**: [Microstrategy](https://www.microstrategy.com), [IBM](https://www.ibm.com/analytics/business-intelligence), [Oracle](https://www.oracle.com/solutions/business-analytics/business-intelligence/index.html), [SAP](https://www.sap.com/products/analytics/business-intelligence-bi.html), [Tableau](https://www.tableau.com), [Qlik](https://www.qlik.com), [Microsoft](https://www.microsoft.com/en-us/sql-server/business-intelligence), [Gooddata](https://www.gooddata.com), [Birst](http://www.birst.com), [SiSense](https://www.sisense.com), [Information Builders](https://www.informationbuilders.com), [Domo](http://domo.com), [Open Text](https://www.opentext.com/what-we-do/products/analytics), [Grow](https://www.grow.com), [Amazon QuickSight](https://aws.amazon.com/quicksight/), [Yellowfin](https://www.yellowfinbi.com), [ptmind](http://www.ptmind.com/) among many others.

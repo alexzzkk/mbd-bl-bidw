@@ -2,30 +2,41 @@
 
 ## Session 9
 
-The topic of this session is **Dashboard**. This repository includes the content discussed in class:
+The topic of this session is **Data Integration** (in particular, ETL). This repository includes the content discussed in class:
 
-  - Articles
-  - Exercises
+  - ETL processes
+  - Exercises and data sets
   - Examples
-  - References
+  - Articles
 
-## Main concepts
+## Main Concepts
 
-  - What is a dashboard
-  - Elements of a dashboard
-  - How to built a dashboard
+  - ETL design and implementation
 
-## How to use this content
+## How to use this content:
 
-  - Download the folders
+  - Download the folder
   - Required Software:
-	  - MySQL
-	  - Tableau
-  - All analysis files have been created with Tableau.
-  
-## References
+  	- MySQL
+	- MySQL Workbench
+  	- Pentaho Data Integration
+  	- Java JDK
+  - All ETL processes have been created with Pentaho Data Integration.
 
-  - [Design Views and Analyze Data](https://onlinehelp.tableau.com/current/pro/desktop/en-us/design_and_analyze.html?TocPath=Design%20Views%20and%20Analyze%20Data|_____0)
-  - [Build and Explore Data Views](https://onlinehelp.tableau.com/current/pro/desktop/en-us/building_overview.html?TocPath=Design%20Views%20and%20Analyze%20Data|Build%20and%20Explore%20Data%20Views|_____0)
-  - [Create Custom Fields with Calculations](https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields.html)
-  - [Create Parameters](https://onlinehelp.tableau.com/current/pro/desktop/en-us/parameters_create.html)
+## FAQ
+
+### Can I use PDI to create an analytic pipeline?
+
+Yes. Using the PMI plugin that you can install from the MarketPlace. Chech this [page](https://community.hds.com/community/products-and-solutions/pentaho/blog/2018/03/06/pmi-installation-and-developer-guides) for more information.
+
+## If PDI is not performing fast, what can I do?
+
+Check this [article](https://help.pentaho.com/Documentation/8.1/Setup/Administration/Performance_Tuning).
+
+## If MySQL is not performing fast, what can I do?
+
+Check this [article](https://dev.mysql.com/doc/refman/8.0/en/optimization.html).
+
+## Can I use PDI for data quality?
+
+Yes! Check this [article](https://help.pentaho.com/Documentation/6.1/0J0/0C0/050/010).

@@ -2,54 +2,67 @@
 
 ## Session 8
 
-The topic of this session is **Reporting**. This repository includes the content discussed in class:
+The topic of this session is **Data Integration** (in particular, ETL). This repository includes the content discussed in class.
 
-  - Tableau files
+  - ETL processes
   - Videos
   - Data Sets
-  - Guides
-  - Introduction to Tableau
-  - Self-learning Tutorials
-  - Samples from http://www.tableaubook.com/
-  
+
 ## Main Concepts
 
-  - What is report, reporting and reporting platform
-  - Elements of a report
-  - Types of charts
-  
+  - ETL subsystems
+  - ETL design and implementation
+
 ## How to use this content
 
   - Download the folders
   - Required Software:
-	  - Tableau
 	  - MySQL
-  - All analysis files have been created with Tableau.
-
+	  - Pentaho Data Integration
+	  - Java JDK
+  - All ETL processes have been created with Pentaho Data Integration.
+  - Transformation TR8-P1 and TRA8-P2 require MySQL.
+  
 ## FAQ
 
-### What if the latest version of Tableau is not working for my OS?
+### Does PDI support user input?
 
-Check the compatibility and download a previous release compatible with your OS from this [website](https://www.tableau.com/support/releases).
+Yes. It supports arguments, parameters and variables. You can read about it [here](https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Data_Integration_Perspective/Run_Modifiers).
 
-### Is there more than one version of Tableau?
+### How can we create an ETL environment independent?
 
-Yes. There are four versions.
+Using variable in the path such as
 
-  - [Tableau Reader](https://www.tableau.com/products/reader): free, only for consumption, for business stakeholders
-  - [Tableau Desktop](https://www.tableau.com/products/trial): 14-days trial, based on license, for developers/business analysts
-  - [Tableau Public](https://public.tableau.com/s/): for developers, free, cloud-based, public data and workbooks
-  - [Tableau Server](https://www.tableau.com/products/server/options): for companies, for developers/business analysts, they can share their analysis with the rest of the company
+``` 
+${Internal.Entry.Current.Directory}
+``` 
 
-Tableau has a data preparation tool as well: [Tableau Prep](https://www.tableau.com/products/prep).
+PDI supports other variables. Check this [link](https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Data_Integration_Perspective/Run_Modifiers/Variables) to discover all of them.
 
-## References
-  
-   - [Data + Design](https://infoactive.co/data-design/titlepage01.html)
-   - [Visualizing Data](http://www.visualisingdata.com/resources/)
-   - [The Extreme Presentation™ Method](https://extremepresentation.com)
-   - [Teaching data visualization: Recommended readings and resources](http://www.mulinblog.com/teaching-data-visualization-recommended-readings-and-resources/)
-   - [Tableau Resources](https://public.tableau.com/en-us/s/resources)
-   - [from Data to Viz](https://www.data-to-viz.com)
-   - [Tableau Extensions Gallery](https://extensiongallery.tableau.com)
-   - [The Chartmaker Directory](http://chartmaker.visualisingdata.com), a comparison for visual tools and libraries
+### How can we schedule an ETL process using PDI?
+
+You can use [carte server](https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Carte_Clusters) (one of the components of PDI) and [cron](https://en.wikipedia.org/wiki/Cron) or an external tool such as [Azkaban](https://azkaban.github.io/) that combines both tools.
+
+### How can I discover all the steps supported by PDI?
+
+Check the following links:
+
+- https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Transformation_Step_Reference
+- https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Job_Entry_Reference
+
+### Key criteria for selecting ETL tools
+
+When selecting an ETL tool, it is recommended to consider, at least, the following criteria: 
+
+ - Infrastructure
+ - Functionality
+ - Performance
+ - Native connectivity
+ - Usability
+ - Platforms supported
+ - Debugging facilities
+ - Data Quality & profiling
+ - Reusability
+ - Scalability
+ - Batch vs Real-time
+ - Future prospects
