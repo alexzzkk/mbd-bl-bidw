@@ -102,6 +102,10 @@ Yes, many and the amount is growing. Some of them:
  
 And many more proprietary options: [Informatica](https://www.informatica.com), [Fivetran](https://fivetran.com), [Improvado](http://improvado.io), [Flydata](https://www.flydata.com), [Alooma](https://www.alooma.com), [Blendo](https://www.blendo.co) [Segment](https://segment.com), [etleap](https://etleap.com), [CloverETL](http://www.cloveretl.com), [Data Duck ETL](http://dataducketl.com), [Celigo Integrator](https://www.celigo.com/ipaas-integration-platform/) or [Matillion](https://www.matillion.com), [ICEDQ](https://icedq.com), [Melt](http://www.jumpmind.com/products/metl/overview) among many others. 
 
+### I don't want to use a GUI for ETL. Any options?
+
+Yes. Check the following links: [1](https://github.com/pawl/awesome-etl) and [2](https://github.com/pditommaso/awesome-pipeline).
+
 ## References
 
   - [Hitachi Ventara Pentaho - Documentation](https://help.pentaho.com/Documentation/)
