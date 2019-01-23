@@ -69,6 +69,7 @@ We must uninstall all JRE, JDK from our system and install the right JDK version
 sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
 sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefpane
 sudo rm -fr ~/Library/Application\ Support/Java
+sudo rm -fr ~/Library/Application\ Support/Oracle/Java
 cd /Library/Java/JavaVirtualMachines
 sudo rm -rf jdk*
 ``` 
