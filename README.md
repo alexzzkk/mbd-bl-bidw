@@ -97,3 +97,7 @@ Yes, check [MySQL™ Notes for Professionals book](http://books.goalkicker.com/M
 ### How can I have this repository?
 
 Fork it using [github](https://www.github.com) and [github desktop](https://www.desktop.github.com). Are you interested in how Github works? Start [here](https://guides.github.com/activities/hello-world/).
+
+  - [Sign up](https://github.com/join) for a free GitHub account
+  - Then follow this guide to [fork your own copy](https://guides.github.com/activities/forking/) of the course repository
+  - [Clone a copy of your forked repository](https://help.github.com/articles/cloning-a-repository/)
