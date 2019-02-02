@@ -53,6 +53,44 @@ When creating attributes with MSQL Workbench we can use different flags:
   
 More information here: https://dev.mysql.com/doc/workbench/en/wb-table-editor-columns-tab.html
 
+### How can I connect to MySQL using the terminal?
+
+If MySQL is installed in your OS, open the terminal and execute this instruction:
+
+ - For Windows (move to the folder where MySQL is installed): 
+
+```
+mysql -u root -p
+```
+
+ - For MAC: 
+ 
+```
+/usr/local/mysql/bin/mysql -uroot -p
+```
+
+### Once I'm connected to MySQL using the terminal, how can I discover and use the databases and tables?
+
+Just execute the following SQL Instructions:
+
+ - Retrieve the databases
+
+```
+show databases;
+```
+
+ - Use a particular database (substitute <database_name> for one of the databases in your server)
+
+```
+use <database_name>;
+```
+
+ - Use a particular table (substitute <table_name> for one of the tables in your server)
+
+```
+use <table_name>;
+```
+
 ## References
 
   - [MySQL Documentation](https://dev.mysql.com/doc/)
