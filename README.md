@@ -29,7 +29,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
 **Install MySQL**
 
-  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.13 and MySQL Workbench 8.0.14). Download the program(s): 
+  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.15 and MySQL Workbench 8.0.15). Download the program(s): 
     - [Mac] In this case: MySQL (http://dev.mysql.com/downloads/mysql/) and MySQL Workbench (http://dev.mysql.com/downloads/workbench/). You must download the DMG file.
     - [Windows] In this case download the MSI installer (bigger size, 64bits) from http://dev.mysql.com/downloads/mysql/ . This installer includes MySQL Workbench. Choose custom installation and only install the server and the workbench. Workbench in windows may require [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145), but if you choose custom installation as stated in the previous step it won't be required. 
     - These versions will work in MAC OSX and Windows (latest OS versions). In case you have a previous OS version then it may be required to use an older version from [here](https://downloads.mysql.com/archives/installer/).
@@ -67,7 +67,7 @@ sudo xattr -dr com.apple.quarantine /Applications/data-integration/Data\ Integra
     - Download the MySQL 8.x JDBC driver (platform independent, zip) to the computer running Pentaho from: https://dev.mysql.com/downloads/connector/j/
     - Unzip the file mysql-connector-java-8.0.13.zip
     - Copy mysql-connector-java-8.0.13.jar to the Pentaho lib folder. [Windows]: C:\data-integration\lib. [Mac OS]: …/Applications/data-integration/lib
-    - Configure a Generic Database connection in Pentaho: (1) Connection URL: **jdbc:mysql://localhost:3306/<database_name>** (2) Driver Class Name: **com.mysql.cj.jdbc.Driver** (3) use the previous user and password
+    - Configure a Generic Database connection in Pentaho: (1) Connection URL: **jdbc:mysql://localhost:3306/<database_name>** (at the beginning the only database is sys) (2) Driver Class Name: **com.mysql.cj.jdbc.Driver** (3) use the previous user and password
     - In case the server time zone value 'AEST' (or other) is unrecognized or represents more than one time zone, then consider: jdbc:mysql://localhost:3306/<database_name>?useLegacyDatetimeCode=false&serverTimezone=UTC
   - [Not required, only if you use MySQL 5.x] Install MySQL 5.x plugin for PDI:
     - Open PDI
