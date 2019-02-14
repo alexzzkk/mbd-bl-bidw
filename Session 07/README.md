@@ -83,6 +83,10 @@ sudo rm -rf jdk*
 java -jar launcher\launcher.jar -lib ..\libswt\win64
 ``` 
 
+## Why is PDI so slow?
+
+Basically, it loads many features (and sometime we don't need all of them for our projects). You can prune PDI. Check this [post](https://blog.twineworks.com/improving-startup-time-of-pentaho-data-integration-78d0803c559b). 
+
 ### What can I do to increase the memory limit for PDI?
 
 Follow the instructions in this [article](https://help.pentaho.com/Documentation/8.2/Setup/Configuration/Design_Tools_and_Utilities/Memory_Limit) to increase the memory limit in spoon.bat or spoon.sh.
