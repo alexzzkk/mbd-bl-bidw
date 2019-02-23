@@ -84,6 +84,10 @@ We can access student licenses due to the Academic Partnership. Tableau has vers
   - Update your license in the application: Help menu -> Manage Product Keys
   - Download the driver for MySQL from [here](https://www.tableau.com/support/drivers)
 
+**(Optional) Atom**
+
+In case you need a multipurpose text editor, I recommend [Atom](https://atom.io).
+
 ## FAQ
 
 ### Is there a Pentaho Release Product Version Matrix?
