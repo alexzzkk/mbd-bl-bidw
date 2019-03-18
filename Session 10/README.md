@@ -39,12 +39,18 @@ Check [Meltano](https://gitlab.com/meltano/meltano#meltano-model)
   
 ## References
   
+  - Tableau:
+    - [Shelves and Cards Reference](https://onlinehelp.tableau.com/current/pro/desktop/en-us/buildmanual_shelves.htm)
+    - [Change the Type of Mark in the View](https://onlinehelp.tableau.com/current/pro/desktop/en-us/viewparts_marks_marktypes.htm)
+    - [Control the Appearance of Marks in the View](https://onlinehelp.tableau.com/current/pro/desktop/en-us/viewparts_marks_markproperties.htm#ColorProp)
+    - [Filter Data from Your Views](https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering.htm)
+    - [Analyze Data](https://onlinehelp.tableau.com/current/pro/desktop/en-us/analyze.htm)
+    - [Tableau Resources](https://public.tableau.com/en-us/s/resources)
+    - [Tableau Extensions Gallery](https://extensiongallery.tableau.com)
    - [Data + Design](https://infoactive.co/data-design/titlepage01.html)
    - [Visualizing Data](http://www.visualisingdata.com/resources/)
    - [The Extreme Presentation™ Method](https://extremepresentation.com)
    - [Teaching data visualization: Recommended readings and resources](http://www.mulinblog.com/teaching-data-visualization-recommended-readings-and-resources/)
-   - [Tableau Resources](https://public.tableau.com/en-us/s/resources)
    - [from Data to Viz](https://www.data-to-viz.com)
-   - [Tableau Extensions Gallery](https://extensiongallery.tableau.com)
    - [The Chartmaker Directory, a comparison for visual tools and libraries](http://chartmaker.visualisingdata.com)
    - [Financial Times | Graphics](https://www.ft.com/graphics)
