@@ -436,15 +436,22 @@
   </info>
   <notepads>
     <notepad>
-      <note>This transformation loads the fact table. 
+      <note>Fact Transformation
 
-- First, it looks up for the foreign keys.
-- Then completes values.
-- Finally it inserts/updates the data in the fact table.</note>
-      <xloc>48</xloc>
-      <yloc>32</yloc>
-      <width>324</width>
-      <heigth>90</heigth>
+This transformation allows to:
+
+1) Extract data from a clean data file
+2) Lookup for the foreign key for every dimension
+3) Add constant
+4) Clean not needed values
+5) Insert data
+
+Note: this transformation must be loaded after all the dimensions 
+transformations</note>
+      <xloc>32</xloc>
+      <yloc>352</yloc>
+      <width>407</width>
+      <heigth>202</heigth>
       <fontname>.AppleSystemUIFont</fontname>
       <fontsize>13</fontsize>
       <fontbold>N</fontbold>
@@ -464,16 +471,28 @@
   <connection>
     <name>localhost</name>
     <server>localhost</server>
-    <type>MYSQL</type>
+    <type>GENERIC</type>
     <access>Native</access>
     <database>CSA</database>
     <port>3306</port>
     <username>root</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb09ab7eca93a7d5</password>
+    <password>Encrypted 2be98afc86aa7f28dae14ac748cc2fe83</password>
     <servername />
     <data_tablespace />
     <index_tablespace />
     <attributes>
+      <attribute>
+        <code>CUSTOM_DRIVER_CLASS</code>
+        <attribute>com.mysql.cj.jdbc.Driver</attribute>
+      </attribute>
+      <attribute>
+        <code>CUSTOM_URL</code>
+        <attribute>jdbc:mysql://localhost:3306/CSA</attribute>
+      </attribute>
+      <attribute>
+        <code>DATABASE_DIALECT_ID</code>
+        <attribute>Generic database</attribute>
+      </attribute>
       <attribute>
         <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
         <attribute>N</attribute>
@@ -497,10 +516,6 @@
       <attribute>
         <code>QUOTE_ALL_FIELDS</code>
         <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>STREAM_RESULTS</code>
-        <attribute>Y</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
@@ -565,7 +580,7 @@
     <hop>
       <from>Select values</from>
       <to>Insert / Update</to>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
     </hop>
     <hop>
       <from>CSV file input</from>
@@ -598,6 +613,7 @@
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -607,7 +623,7 @@
     </remotesteps>
     <GUI>
       <xloc>544</xloc>
-      <yloc>320</yloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -956,6 +972,7 @@
         <trim_type>both</trim_type>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -965,7 +982,7 @@
     </remotesteps>
     <GUI>
       <xloc>48</xloc>
-      <yloc>176</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1085,6 +1102,7 @@
         <update>Y</update>
       </value>
     </lookup>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1094,7 +1112,7 @@
     </remotesteps>
     <GUI>
       <xloc>160</xloc>
-      <yloc>320</yloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1139,6 +1157,7 @@
     </fields>
     <sequence />
     <last_update_field />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1147,8 +1166,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>368</xloc>
-      <yloc>176</yloc>
+      <xloc>384</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1185,6 +1204,7 @@
     </fields>
     <sequence />
     <last_update_field />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1193,8 +1213,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>656</xloc>
-      <yloc>176</yloc>
+      <xloc>608</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1231,6 +1251,7 @@
     </fields>
     <sequence />
     <last_update_field />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1239,8 +1260,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
-      <yloc>176</yloc>
+      <xloc>736</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1285,6 +1306,7 @@
     </fields>
     <sequence />
     <last_update_field />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1293,8 +1315,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>176</yloc>
+      <xloc>480</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1331,6 +1353,7 @@
     </fields>
     <sequence />
     <last_update_field />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1340,7 +1363,7 @@
     </remotesteps>
     <GUI>
       <xloc>704</xloc>
-      <yloc>320</yloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1377,6 +1400,7 @@
     </fields>
     <sequence />
     <last_update_field />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1385,8 +1409,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>928</xloc>
-      <yloc>176</yloc>
+      <xloc>864</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1423,6 +1447,7 @@
     </fields>
     <sequence />
     <last_update_field />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1431,8 +1456,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>208</xloc>
-      <yloc>176</yloc>
+      <xloc>272</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1469,6 +1494,7 @@
     </fields>
     <sequence />
     <last_update_field />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1477,8 +1503,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>928</xloc>
-      <yloc>320</yloc>
+      <xloc>864</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1526,6 +1552,7 @@
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -1535,7 +1562,7 @@
     </remotesteps>
     <GUI>
       <xloc>352</xloc>
-      <yloc>320</yloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1544,4 +1571,5 @@
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>
   <slave_transformation>N</slave_transformation>
+  <attributes />
 </transformation>

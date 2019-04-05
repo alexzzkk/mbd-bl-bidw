@@ -290,6 +290,7 @@
       <name>START</name>
       <description />
       <type>SPECIAL</type>
+      <attributes />
       <start>Y</start>
       <dummy>N</dummy>
       <repeat>N</repeat>
@@ -304,12 +305,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>96</xloc>
-      <yloc>96</yloc>
+      <yloc>32</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DATA_PREPARATION</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DATA_PREPARATION.ktr</filename>
@@ -340,12 +343,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>256</xloc>
-      <yloc>96</yloc>
+      <yloc>32</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DIM_SERVER_STATUS</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DIM_SERVER_STATUS.ktr</filename>
@@ -376,12 +381,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>528</xloc>
-      <yloc>96</yloc>
+      <yloc>32</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DIM_IP</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DIM_IP.ktr</filename>
@@ -412,12 +419,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>768</xloc>
-      <yloc>96</yloc>
+      <yloc>32</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DIM_REFERER</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DIM_REFERER.ktr</filename>
@@ -448,12 +457,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>768</xloc>
-      <yloc>224</yloc>
+      <yloc>160</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DIM_RESOURCE</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DIM_RESOURCE.ktr</filename>
@@ -484,12 +495,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>544</xloc>
-      <yloc>224</yloc>
+      <yloc>160</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DIM_BROWSER</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DIM_BROWSER.ktr</filename>
@@ -520,12 +533,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>320</xloc>
-      <yloc>224</yloc>
+      <yloc>160</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DIM_OS</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DIM_OS.ktr</filename>
@@ -556,12 +571,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>96</xloc>
-      <yloc>224</yloc>
+      <yloc>160</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DIM_PROTOCOL</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DIM_PROTOCOL.ktr</filename>
@@ -592,12 +609,14 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>96</xloc>
-      <yloc>352</yloc>
+      <yloc>288</yloc>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Transformation: DIM_DATE</name>
       <description />
       <type>TRANS</type>
+      <attributes />
       <specification_method>filename</specification_method>
       <trans_object_id />
       <filename>${Internal.Job.Filename.Directory}/TR_DIM_DATE.ktr</filename>
@@ -628,7 +647,46 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>336</xloc>
-      <yloc>352</yloc>
+      <yloc>288</yloc>
+      <attributes_kjc />
+    </entry>
+    <entry>
+      <name>Transformation: Fact Table</name>
+      <description />
+      <type>TRANS</type>
+      <attributes />
+      <specification_method>filename</specification_method>
+      <trans_object_id />
+      <filename>${Internal.Entry.Current.Directory}/TR_FACT.ktr</filename>
+      <transname />
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile />
+      <logext />
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name />
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <run_configuration />
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>560</xloc>
+      <yloc>288</yloc>
+      <attributes_kjc />
     </entry>
   </entries>
   <hops>
@@ -713,14 +771,29 @@
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
+    <hop>
+      <from>Transformation: DIM_DATE</from>
+      <to>Transformation: Fact Table</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
   </hops>
   <notepads>
     <notepad>
-      <note>This job executes the data preparation transformation and all the dimensions transformations.</note>
-      <xloc>48</xloc>
-      <yloc>32</yloc>
-      <width>578</width>
-      <heigth>26</heigth>
+      <note>CSA Data Mart Job
+
+This job allows to:
+
+1) Start the job
+2) Run all the dimensions transformations
+3) Runn all the jobs transformations</note>
+      <xloc>784</xloc>
+      <yloc>288</yloc>
+      <width>263</width>
+      <heigth>122</heigth>
       <fontname>.AppleSystemUIFont</fontname>
       <fontsize>13</fontsize>
       <fontbold>N</fontbold>
@@ -737,4 +810,5 @@
       <drawshadow>Y</drawshadow>
     </notepad>
   </notepads>
+  <attributes />
 </job>

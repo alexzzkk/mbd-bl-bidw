@@ -437,11 +437,22 @@ It splits the log into bots and users cliks.</extended_description>
   </info>
   <notepads>
     <notepad>
-      <note>This transformation prepares the data. It includes all the common steps to prepare a clean data set in this particular project. </note>
-      <xloc>32</xloc>
-      <yloc>16</yloc>
-      <width>763</width>
-      <heigth>26</heigth>
+      <note>Data Preparation Transformation
+
+This transformation allows to:
+
+1) Extract data from a log file
+2) Split information from log using regex evaluation
+3) Detecting user-agent information using javascript
+4) Remove unused values
+5) Complete nulls
+6) Add derived data fields
+7) Filter robots
+8) Generate clean data from log</note>
+      <xloc>752</xloc>
+      <yloc>256</yloc>
+      <width>327</width>
+      <heigth>202</heigth>
       <fontname>.AppleSystemUIFont</fontname>
       <fontsize>13</fontsize>
       <fontbold>N</fontbold>
@@ -521,6 +532,7 @@ It splits the log into bots and users cliks.</extended_description>
       <method>none</method>
       <schema_name />
     </partitioning>
+    <failIfNoFile>N</failIfNoFile>
     <calculation>
       <field_name>day_of_week</field_name>
       <calc_type>DAY_OF_WEEK</calc_type>
@@ -551,6 +563,7 @@ It splits the log into bots and users cliks.</extended_description>
       <grouping_symbol />
       <currency_symbol />
     </calculation>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -560,7 +573,7 @@ It splits the log into bots and users cliks.</extended_description>
     </remotesteps>
     <GUI>
       <xloc>640</xloc>
-      <yloc>176</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -9959,6 +9972,7 @@ It splits the log into bots and users cliks.</extended_description>
         </conditions>
       </condition>
     </compare>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -9968,7 +9982,7 @@ It splits the log into bots and users cliks.</extended_description>
     </remotesteps>
     <GUI>
       <xloc>352</xloc>
-      <yloc>288</yloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -10104,6 +10118,7 @@ var cpu_architecture = result.cpu.architecture;
         <replace>N</replace>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -10113,7 +10128,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>608</xloc>
-      <yloc>80</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -10149,6 +10164,7 @@ var cpu_architecture = result.cpu.architecture;
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -10158,7 +10174,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>896</xloc>
-      <yloc>176</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -10253,6 +10269,7 @@ var cpu_architecture = result.cpu.architecture;
     <rootUriNameFieldName />
     <extensionFieldName />
     <sizeFieldName />
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -10262,7 +10279,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>64</xloc>
-      <yloc>80</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -10587,6 +10604,7 @@ var cpu_architecture = result.cpu.architecture;
         <currency />
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -10596,7 +10614,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>288</xloc>
-      <yloc>80</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -10701,6 +10719,7 @@ var cpu_architecture = result.cpu.architecture;
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -10710,7 +10729,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>128</xloc>
-      <yloc>288</yloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -10844,6 +10863,7 @@ var cpu_architecture = result.cpu.architecture;
         <name>firefox_gecko_version_b</name>
       </remove>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -10853,7 +10873,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>896</xloc>
-      <yloc>80</yloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -11248,6 +11268,7 @@ var cpu_architecture = result.cpu.architecture;
         <precision>-1</precision>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -11257,7 +11278,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>576</xloc>
-      <yloc>288</yloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -11652,6 +11673,7 @@ var cpu_architecture = result.cpu.architecture;
         <precision>-1</precision>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -11661,7 +11683,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>352</xloc>
-      <yloc>400</yloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -11709,6 +11731,7 @@ var cpu_architecture = result.cpu.architecture;
         <target_value>Sunday</target_value>
       </field>
     </fields>
+    <attributes />
     <cluster_schema />
     <remotesteps>
       <input>
@@ -11718,7 +11741,7 @@ var cpu_architecture = result.cpu.architecture;
     </remotesteps>
     <GUI>
       <xloc>352</xloc>
-      <yloc>176</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -11727,4 +11750,5 @@ var cpu_architecture = result.cpu.architecture;
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>
   <slave_transformation>N</slave_transformation>
+  <attributes />
 </transformation>
