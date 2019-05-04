@@ -43,3 +43,7 @@ Yes. It comprises many iterative steps.
 ### Any tips for improving MySQL performance?
 
 Check this article: [https://www.catswhocode.com/blog/10-sql-tips-to-speed-up-your-database](https://www.catswhocode.com/blog/10-sql-tips-to-speed-up-your-database)
+
+### How to backup a database in MySQL?
+
+Check this [explanation](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-management.html).
