@@ -50,6 +50,12 @@ Check the following links:
 - https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Transformation_Step_Reference
 - https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Job_Entry_Reference
 
+### How Metadata Injection Works
+
+Check this [explanation](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Transformation_Step_Reference/ETL_Metadata_Injection). Basically, we are creating a dynamic ETL.
+
+![Comparison](http://kettle.bleuel.com/wp-content/uploads/2016/04/MDI-Static-vs-MDI.png)
+
 ### Key criteria for selecting ETL tools
 
 When selecting an ETL tool, it is recommended to consider, at least, the following criteria: 
