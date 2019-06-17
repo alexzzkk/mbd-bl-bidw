@@ -65,5 +65,8 @@ We can use a color picker. There are many:
 	- [Tableau Cookbook – Recipes for Data Visualization](https://github.com/PacktPublishing/Tableau-Cookbook-Recipes-for-Data-Visualization)
 	- [Tableau 10 Bootcamp](https://github.com/PacktPublishing/Tableau-10-Bootcamp)
 	- [Tableau 10 Business Intelligence Cookbook](https://github.com/PacktPublishing/Tableau-10-Business-Intelligence-Cookbook)
+   - Financial times:
+   	- [Graphics](https://www.ft.com/graphics)
+	- [Story Playbook](https://github.com/ft-interactive/story-playbook)
   - [THE ELEMENTS OF EUCLID WITH COLOURED DIAGRAMS AND SYMBOLS](https://www.c82.net/euclid/)
   - [Laws of UX](https://lawsofux.com)
