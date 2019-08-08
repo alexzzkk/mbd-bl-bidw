@@ -32,7 +32,7 @@ This repository contains all necessary inputs to run the course hands-on labs.
 
 **Install MySQL and MySQL Workbench**
 
-  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.16 and MySQL Workbench 8.0.16). Check in advance if your system is supported: [MySQL](https://www.mysql.com/support/supportedplatforms/database.html) and [MySQL Workbench](https://www.mysql.com/support/supportedplatforms/workbench.html).
+  - Download the right version of MySQL and MySQL Workbench for your OS (in our case: MySQL Community Server 8.0.17 and MySQL Workbench 8.0.17). Check in advance if your system is supported: [MySQL](https://www.mysql.com/support/supportedplatforms/database.html) and [MySQL Workbench](https://www.mysql.com/support/supportedplatforms/workbench.html).
   - Download the program(s) for your specific OS: 
     - [Mac] In this case: MySQL (http://dev.mysql.com/downloads/mysql/) and MySQL Workbench (http://dev.mysql.com/downloads/workbench/). You must download the DMG file.
     - [Windows] In this case download the MSI installer (bigger size, 64bits) from http://dev.mysql.com/downloads/mysql/ . This installer includes MySQL Workbench. Choose custom installation and only install the server and the workbench. Workbench in windows may require [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-us/download/details.aspx?id=30653) and [Visual C++ Redistributable for Visual Studio 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145), but if you choose custom installation as stated in the previous step it won't be required. 
