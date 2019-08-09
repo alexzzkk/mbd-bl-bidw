@@ -53,7 +53,7 @@ We must uninstall all JRE, JDK from our system and install the right JDK version
 [Windows]
 
   - Go to control panel > Uninstall programs. Delete all JRE and JDK not required. You have more information [here](https://java.com/en/download/help/uninstall_java.xml)
-  - Download Java SE Development Kit 8u202 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  - Download Java SE Development Kit 8u221 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
   - Set Environment Variables:
     - Open Control Panel. Open User Accounts applet. On the left-hand side of that applet you will see a link that says Change my environment variables. Click that link, and it will take you to the same “Environment Variables” dialog for your user's environment variables.
@@ -74,7 +74,7 @@ cd /Library/Java/JavaVirtualMachines
 sudo rm -rf jdk*
 ``` 
 
-  - Download Java SE Development Kit 8u202 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  - Download Java SE Development Kit 8u221 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
 
 [Windows] If PDI is able to find java but it is still refusing to open, then open CMD prompt inside the data integration folder and execute the following instruction:
@@ -85,7 +85,7 @@ java -jar launcher\launcher.jar -lib ..\libswt\win64
 
 ## Why is PDI so slow?
 
-Basically, it loads many features (and sometime we don't need all of them for our projects). You can prune PDI. Check this [post](https://blog.twineworks.com/improving-startup-time-of-pentaho-data-integration-78d0803c559b). 
+Basically, it loads many features (and sometimes we don't need all of them for our projects). You can prune PDI. Check this [post](https://blog.twineworks.com/improving-startup-time-of-pentaho-data-integration-78d0803c559b). It applies for versions 8.1 and 8.2.
 
 ### What can I do to increase the memory limit for PDI?
 
@@ -116,9 +116,9 @@ Yes. Check the following links: [1](https://github.com/pawl/awesome-etl) and [2]
   - [Hitachi Ventara Pentaho - Documentation](https://help.pentaho.com/Documentation/)
   - [Hitachi Ventara Pentaho - Documentation PDI](https://help.pentaho.com/Documentation/8.2/Products/Data_Integration)
   - [Pentaho Github](https://github.com/pentaho)
-  - [PDI - Transformation Steps](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Transformation_Step_Reference)
-  - [PDI - Job Steps](https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Job_Entry_Reference)
-  - [PDI - Market Place](https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Marketplace)
+  - [PDI - Transformation Steps](https://help.pentaho.com/Documentation/8.3/Products/Data_Integration/Transformation_Step_Reference)
+  - [PDI - Job Steps](https://help.pentaho.com/Documentation/8.3/Products/Data_Integration/Job_Entry_Reference)
+  - [PDI - Market Place](https://help.pentaho.com/Documentation/8.3/Products/Data_Integration/Marketplace)
   - [Hitachi Ventara Pentaho - Community](https://community.hds.com/community/products-and-solutions/pentaho/)
   - [Hitachi Ventara Pentaho - Wiki](https://wiki.pentaho.com)
   - [Hitachi Ventara Pentaho - Wiki - PDI](https://wiki.pentaho.com/display/EAI/Latest+Pentaho+Data+Integration+(aka+Kettle)+Documentation)
