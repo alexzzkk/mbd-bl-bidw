@@ -91,6 +91,10 @@ Basically, it loads many features (and sometimes we don't need all of them for o
 
 Follow the instructions in this [article](https://help.pentaho.com/Documentation/8.2/Setup/Configuration/Design_Tools_and_Utilities/Memory_Limit) to increase the memory limit in spoon.bat or spoon.sh.
 
+### How can we extend the features of PDI?
+
+Using the [marketplace](https://help.pentaho.com/Documentation/8.3/Products/Use_the_Pentaho_Marketplace_to_manage_plugins).
+
 ### Are there other open source data integration options?
 
 Yes, many and the amount is growing. Some of them:
