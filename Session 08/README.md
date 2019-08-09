@@ -37,24 +37,28 @@ Using variable in the path such as
 ${Internal.Entry.Current.Directory}
 ``` 
 
-PDI supports other variables. Check this [link](https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Data_Integration_Perspective/Run_Modifiers/Variables) to discover all of them.
+PDI supports other variables. Check this [link](https://help.pentaho.com/Documentation/8.3/Products/Variables) to discover all of them.
 
 ### How can we schedule an ETL process using PDI?
 
-You can use [carte server](https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Carte_Clusters) (one of the components of PDI) and [cron](https://en.wikipedia.org/wiki/Cron) or an external tool such as [Azkaban](https://azkaban.github.io/) that combines both tools.
+You can use [carte server](https://help.pentaho.com/Documentation/8.3/Products/Use_Carte_Clusters) (one of the components of PDI) and [cron](https://en.wikipedia.org/wiki/Cron) or an external tool such as [Azkaban](https://azkaban.github.io/) that combines both tools.
 
 ### How can I discover all the steps supported by PDI?
 
 Check the following links:
 
-- https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Transformation_Step_Reference
-- https://help.pentaho.com/Documentation/8.2/Products/Data_Integration/Job_Entry_Reference
+- https://help.pentaho.com/Documentation/8.3/Products/Transformation_step_reference
+- https://help.pentaho.com/Documentation/8.3/Products/Job_entry_reference
 
 ### How Metadata Injection Works
 
-Check this [explanation](https://help.pentaho.com/Documentation/8.0/Products/Data_Integration/Transformation_Step_Reference/ETL_Metadata_Injection). Basically, we are creating a dynamic ETL.
+Check this [explanation](https://help.pentaho.com/Documentation/8.3/Products/ETL_metadata_injection). Basically, we are creating a dynamic ETL.
 
 ![Comparison](http://kettle.bleuel.com/wp-content/uploads/2016/04/MDI-Static-vs-MDI.png)
+
+### Do we have Data lineage in PDI?
+
+Yes, it does. PDI supports [Data Lineage](https://en.wikipedia.org/wiki/Data_lineage). Check this [explanation]()
 
 ### Key criteria for selecting ETL tools
 
