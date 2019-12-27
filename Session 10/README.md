@@ -53,5 +53,7 @@ Check [Meltano](https://gitlab.com/meltano/meltano#meltano-model)
    - [Teaching data visualization: Recommended readings and resources](http://www.mulinblog.com/teaching-data-visualization-recommended-readings-and-resources/)
    - [from Data to Viz](https://www.data-to-viz.com)
    - [The Chartmaker Directory, a comparison for visual tools and libraries](http://chartmaker.visualisingdata.com)
-   - [Financial Times | Graphics](https://www.ft.com/graphics)
+   - Financial times:
+   	- [Graphics](https://www.ft.com/graphics)
+	- [Story Playbook](https://github.com/ft-interactive/story-playbook)
    - [Graphics principles cheatsheet](https://graphicsprinciples.github.io)
