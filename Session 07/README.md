@@ -18,9 +18,9 @@ The topic of this session is **Data Integration** (in particular, ETL). This rep
 
   - Watch the videos
   - Download the folder
-  - If you want to reproduce download the dataset (customer_data.csv) and install the programs
+  - If you want to reproduce download the dataset (customer_data.csv) and install the programs (in case it was not done before)
   - Required Software:
-    - JDK v8
+    - JDK v8 (latest version)
     - Pentaho Data Integration (latest version)
   
 ## What you can learn in the videos
@@ -53,7 +53,7 @@ We must uninstall all JRE, JDK from our system and install the right JDK version
 [Windows]
 
   - Go to control panel > Uninstall programs. Delete all JRE and JDK not required. You have more information [here](https://java.com/en/download/help/uninstall_java.xml)
-  - Download Java SE Development Kit 8u221 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  - Download Java SE Development Kit 8u231 from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - Install JAVA following the steps of the installer.
   - Set Environment Variables:
     - Open Control Panel. Open User Accounts applet. On the left-hand side of that applet you will see a link that says Change my environment variables. Click that link, and it will take you to the same “Environment Variables” dialog for your user's environment variables.
@@ -114,6 +114,10 @@ And many more proprietary options: [Informatica](https://www.informatica.com), [
 ### I don't want to use a GUI for ETL. Any options?
 
 Yes. Check the following links: [1](https://github.com/pawl/awesome-etl) and [2](https://github.com/pditommaso/awesome-pipeline).
+
+### Do we need integration services beyond Business Intelligence?
+
+Yes. Review this interesting discussion about the topic in Netflix: [Delta: A Data Synchronization and Enrichment Platform](https://medium.com/netflix-techblog/delta-a-data-synchronization-and-enrichment-platform-e82c36a79aee).
 
 ## References
 
