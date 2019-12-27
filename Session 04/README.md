@@ -62,7 +62,7 @@ There are many options:
  - Hadoop-based solutions: [Amazon Redshift](https://aws.amazon.com/redshift/), [Google BigQuery](https://cloud.google.com/bigquery/) or [Snowflake](https://snowflake.net) among many others.
  - Appliances: [Yellowbrick](https://yellowbrick.com), [IBM's Netezza](https://www.ibm.com/analytics/netezza) or [Teradata](https://www.teradata.com) among many others.
 
-Choosing one or another depends on many factors such as data size, purpose, knowledge, budget, etc.
+Choosing one or another depends on many factors such as data size, purpose, knowledge, budget, legacy systems, partnerships, etc.
 
 ### What can I do if I forget my MySQL password?
 

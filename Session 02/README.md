@@ -26,7 +26,22 @@ A DW/BI must have, at least, the developer and production environments.
  
 ### Is it recommended to use a Control Version System in DW/BI?
  
-Yes. It is recommended to use a version control system (SCM) to version all artifacts created during the project: (schema, sql scripts, data, etls, reports,...). Some options: [git](https://git-scm.com), [SVN](https://subversion.apache.org/), [CVS](http://www.nongnu.org/cvs/).
+Yes. It is recommended to use a version control system (SCM) to version all artefacts created during the project: (schema, sql scripts, data, etls, reports,...). Some options: [git](https://git-scm.com), [SVN](https://subversion.apache.org/), [CVS](http://www.nongnu.org/cvs/).
+
+### Agile Methodologies. What are you talking about?
+
+Some concepts (from [here](https://www.wsj.com/articles/are-you-agile-enough-for-agile-management-11565607600?))
+
+ - **Agile**: A tool kit of practices for turning complex projects over to self-managed teams that work closely with customers to deliver work in stages and respond quickly to change.
+ - **Backlog**: A prioritized list of everything that needs to be done to complete a project.
+ - **Sprint**: A work period of a fixed length, usually one to four weeks, that ends in a demonstration of work accomplished.
+ - **Promise**: The work a team has committed to deliver during the current sprint.
+ - **Scrum**: A popular framework for putting agile methods into practice. 
+ - **Scrum master**: A person who helps teams manage themselves, making sure they have the information and resources they need.
+ - **Stand-up (or huddle, scrum or check-in)**: A meeting held at the same time every day when team members report briefly on work completed, tasks planned for that day and obstacles that are getting in the way.
+ - **Kanban or scrum board**: A display showing one sticky note for each task in progress, aligned in separate columns based on their status—to-do, doing or done.                                                            Stories: Narratives defining features, functions and other work to be delivered, explaining for whom the task is being done, what the customer wants and why.
+ - **Timebox**: A maximum period of time allotted to produce something of value for the customer.
+ - **Waterfall method**: A traditional method of organizing projects, moving an entire body of work in steps from planning to designing, testing and launching.
 
 ### I'm interested in combining agile methodologies and github. Can I use them with github?
 

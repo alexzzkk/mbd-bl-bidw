@@ -76,3 +76,15 @@ When selecting an ETL tool, it is recommended to consider, at least, the followi
  - Scalability
  - Batch vs Real-time
  - Future prospects
+
+## References
+
+The following references are academic papers that present advanced topics:
+
+  - Optimizing ETL Dataflow Using Shared Caching and Parallelization Methods. [arXiv:1409.1639](https://arxiv.org/abs/1409.1639)
+  - Two-level Data Staging ETL for Transaction Data. [arXiv:1409.1636](https://arxiv.org/abs/1409.1636)
+  - Automatic approach for generating ETL operators. [arXiv:1212.6051](https://arxiv.org/abs/1212.6051)
+  - Outlier Detection Techniques for SQL and ETL Tuning. [arXiv:1203.4163](https://arxiv.org/abs/1203.4163)
+  - Outlier detection from ETL Execution trace. [arXiv:1203.1878](https://arxiv.org/abs/1203.1878)
+  - DOD-ETL: Distributed On-Demand ETL for Near Real-Time Business Intelligence. [arXiv:1901.08151](https://arxiv.org/abs/1901.08151) 
+
