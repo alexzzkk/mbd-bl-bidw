@@ -31,7 +31,9 @@ The topic of this session is **Reporting** and **OLAP**. This repository include
   
 ### I need a Dashboard/Visualization Tool. Which options do I have?
 
-Many options: [Silota](http://www.silota.com), [Metabase](https://www.metabase.com), [Qlik](https://www.qlik.com), [Microsoft Power BI](https://powerbi.microsoft.com/en-us/), [Yellowfin BI](https://www.yellowfinbi.com), [Redash](https://redash.io), [Mode Analytics](https://modeanalytics.com), [Meteorite](https://www.meteorite.bi), [Holistics](https://www.holistics.io), [datapine](https://www.datapine.com), [Domo](https://www.domo.com), [Periscope Data](https://www.periscopedata.com), [Looked](https://looker.com), [AWS Quicksight](https://aws.amazon.com/quicksight/) among many others.
+### I need a Dashboard/Visualization Tool. Which options do I have?
+
+Many options: [Silota](http://www.silota.com), [Metabase](https://www.metabase.com), [Qlik](https://www.qlik.com), [Microsoft Power BI](https://powerbi.microsoft.com/en-us/), [Yellowfin BI](https://www.yellowfinbi.com), [Redash](https://redash.io), [Mode Analytics](https://modeanalytics.com), [Meteorite](https://www.meteorite.bi), [Holistics](https://www.holistics.io), [datapine](https://www.datapine.com), [Domo](https://www.domo.com), [Periscope Data](https://www.periscopedata.com), [Looked](https://looker.com), [AWS Quicksight](https://aws.amazon.com/quicksight/), [Toucan Toco](https://toucantoco.com/en/) among many others.
 
 ### What if... I want to use only open source components?
 
