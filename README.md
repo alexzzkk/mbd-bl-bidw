@@ -69,8 +69,8 @@ sudo xattr -dr com.apple.quarantine /Applications/data-integration/Data\ Integra
 
   - Configuring a JDBC Connection to MySQL 8.0.19 Using PDI:
     - Download the MySQL 8.0.19 JDBC driver  - or later - (select **platform independent**, zip) to the computer running Pentaho from [https://dev.mysql.com/downloads/connector/j/](https://dev.mysql.com/downloads/connector/j/)
-    - Unzip the file mysql-connector-java-8.0.18.zip and enter inside the folder
-    - Copy mysql-connector-java-8.0.17.jar to the Pentaho lib folder. [Windows]: C:\data-integration\lib. [Mac OS]: …/Applications/data-integration/lib
+    - Unzip the file mysql-connector-java-8.0.19.zip and enter inside the folder
+    - Copy mysql-connector-java-8.0.19.jar to the Pentaho lib folder. [Windows]: C:\data-integration\lib. [Mac OS]: …/Applications/data-integration/lib
     - Configure a Generic Database connection in Pentaho: (1) Connection URL: **jdbc:mysql://localhost:3306/<database_name>** (at the beginning the only database is sys, subtitute <database_name> by sys) (2) Driver Class Name: **com.mysql.cj.jdbc.Driver** (3) use the previous user and password
     - In case the server time zone value 'AEST' (or other time zone) is unrecognized or represents more than one time zone, then consider: jdbc:mysql://localhost:3306/<database_name>?useLegacyDatetimeCode=false&serverTimezone=UTC
   - [Not required, only if you use MySQL 5.x] Install MySQL 5.x plugin for PDI:
