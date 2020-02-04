@@ -83,7 +83,7 @@ sudo rm -rf jdk*
 java -jar launcher\launcher.jar -lib ..\libswt\win64
 ``` 
 
-## Why is PDI so slow?
+### Why is PDI so slow?
 
 Basically, it loads many features (and sometimes we don't need all of them for our projects). You can prune PDI. Check this [post](https://blog.twineworks.com/improving-startup-time-of-pentaho-data-integration-78d0803c559b). It applies for versions 8.1 and 8.2.
 
@@ -118,6 +118,10 @@ Yes. Check the following links: [1](https://github.com/pawl/awesome-etl) and [2]
 ### Do we need integration services beyond Business Intelligence?
 
 Yes. Review this interesting discussion about the topic in Netflix: [Delta: A Data Synchronization and Enrichment Platform](https://medium.com/netflix-techblog/delta-a-data-synchronization-and-enrichment-platform-e82c36a79aee).
+
+### I hate regular expressions, but I need them. What can I do
+
+Check the site: [https://ihateregex.io](https://ihateregex.io)
 
 ## References
 
