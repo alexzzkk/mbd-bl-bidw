@@ -123,6 +123,15 @@ Yes. Review this interesting discussion about the topic in Netflix: [Delta: A Da
 
 Check the site: [https://ihateregex.io](https://ihateregex.io)
 
+### What are the Different Types of Missing Data?
+
+There are four:
+
+ - Structurally missing data is data that is missing for a logical reason.
+ - Missing completely at random is data can not be predicted using classification or regression techniques.
+ - Missing at random is when a pattern may be found to complete the data.
+ - Missing not at random is when we cannot use any of the standard methods for dealing with missing data.
+
 ## References
 
   - [Hitachi Ventara Pentaho - Documentation](https://help.pentaho.com/Documentation/)
