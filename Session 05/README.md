@@ -42,7 +42,7 @@ Yes. It comprises many iterative steps.
 
 ### Any tips for improving MySQL performance?
 
-Check this article: [https://www.catswhocode.com/blog/10-sql-tips-to-speed-up-your-database](https://www.catswhocode.com/blog/10-sql-tips-to-speed-up-your-database)
+Check this article: [https://web.archive.org/web/20170617100742/http://www.catswhocode.com/blog/10-sql-tips-to-speed-up-your-database](https://web.archive.org/web/20170617100742/http://www.catswhocode.com/blog/10-sql-tips-to-speed-up-your-database)
 
 ### How to backup a database in MySQL?
 
