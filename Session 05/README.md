@@ -30,9 +30,9 @@ The topic of this session is **Data Modelling** (in particular, data warehouse m
 
 ### How to choose between CIF, MD or Data Vault?
 
-  - CIF (Inmon): Easy to maintain; Structured; Easier data mining; Timely to build
-  - MD (Kimball): Start small, scale big; Faster ROI; Analytical Tools; Low reusability
-  - Data Vault (Lyndsted); Backend Data Warehouse; Multiple sources; Full history; Incremental build; Up-front work; Long-term payoff; Many joins
+  - **CIF (Inmon)**: Easy to maintain; Structured; Easier data mining; Timely to build
+  - **MD (Kimball)**: Start small, scale big; Faster ROI; Analytical Tools; Low reusability
+  - **Data Vault (Lyndsted)**: Backend Data Warehouse; Multiple sources; Full history; Incremental build; Up-front work; Long-term payoff; Many joins
 
 ### Is there a data warehouse lifecycle?
 
