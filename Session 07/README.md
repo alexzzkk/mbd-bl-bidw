@@ -109,7 +109,7 @@ Yes, many and the amount is growing. Some of them:
  - [Luigi from Spotify](https://github.com/spotify/luigi): a Python module that helps you build complex pipelines of batch jobs.
  - [embulk](http://www.embulk.org/docs/): a open-source bulk data loader that helps data transfer between various databases, storages, file formats, and cloud services.
  
-And many more proprietary options: [Informatica](https://www.informatica.com), [Fivetran](https://fivetran.com), [Improvado](http://improvado.io), [Flydata](https://www.flydata.com), [Alooma](https://www.alooma.com), [Blendo](https://www.blendo.co) [Segment](https://segment.com), [etleap](https://etleap.com), [CloverETL](http://www.cloveretl.com), [Data Duck ETL](http://dataducketl.com), [Celigo Integrator](https://www.celigo.com/ipaas-integration-platform/) or [Matillion](https://www.matillion.com), [ICEDQ](https://icedq.com), [Melt](http://www.jumpmind.com/products/metl/overview), [Rivery](https://rivery.io/) among many others. 
+And many more proprietary options: [Informatica](https://www.informatica.com), [Fivetran](https://fivetran.com), [Improvado](http://improvado.io), [Flydata](https://www.flydata.com), [Alooma](https://www.alooma.com), [Blendo](https://www.blendo.co) [Segment](https://segment.com), [etleap](https://etleap.com), [CloverETL](http://www.cloveretl.com), [Data Duck ETL](http://dataducketl.com), [Celigo Integrator](https://www.celigo.com/ipaas-integration-platform/), [Matillion](https://www.matillion.com), [ICEDQ](https://icedq.com), [Melt](http://www.jumpmind.com/products/metl/overview), [Rivery](https://rivery.io/) or [Hevo](https://hevodata.com)  among many others. 
 
 ### I don't want to use a GUI for ETL. Any options?
 
