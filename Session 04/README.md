@@ -177,6 +177,7 @@ You can use other programs for managing and modelling multiple databases such [H
 
 ## References
 
+  - [Data Vault 2.0 Automation Solutions for Commercial Use](https://trepo.tuni.fi/bitstream/handle/10024/123026/LaukkanenJenni.pdf?sequence=2)
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-agile-modeling-not-an-option-anymore
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-data-vault-2-0-modeling-basics
   - https://www.vertabelo.com/blog/technical-articles/data-vault-series-the-business-data-vault
